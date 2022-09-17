@@ -1,6 +1,0 @@
-streamlit
-pickle
-numpy
-sklearn
-tensorflow
-keras
