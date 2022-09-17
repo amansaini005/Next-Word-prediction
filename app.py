@@ -5,7 +5,7 @@ import numpy as np
 
 
 tokenizer = pickle.load(open('token.pkl', 'rb'))
-model = load_model('words.h5')
+model = load_model('words.h5', compile = False)
 
 st.title('Next Word Predictor')
 text = ("""It is the eve of St. George's Day. Do you not know that to-night, when 
