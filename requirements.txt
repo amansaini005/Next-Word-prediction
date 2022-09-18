@@ -1,3 +1,4 @@
 streamlit
 sklearn
-tensorflow-cpu == 2.8.2
+tensorflow
+keras
