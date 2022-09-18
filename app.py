@@ -2,7 +2,8 @@ import streamlit as st
 import pickle
 from tensorflow.keras.models import load_model
 import numpy as np
-
+import os
+import h5py
 
 tokenizer = pickle.load(open('token.pkl', 'rb'))
 model = load_model('words.h5')
